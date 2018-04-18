@@ -1,6 +1,6 @@
 #!groovy
 
-// Dumy Jenkinsfile
+// Example Jenkinsfile
 
 node {
     stage('GIT') {
