@@ -4,7 +4,7 @@
   "description": "simple js-test",
   "main": "app.js",
   "scripts": {
-    "sonar": "sonar-scanner -Dsonar.projectKey=js-test -Dsonar.sources=. -Dsonar.host.url=http://sonarqube:9000 -Dsonar.login=23d77714bfb493b634ff3757677181686e2075ba"
+    "sonar": "sonar-scanner -Dsonar.projectKey=js-test -Dsonar.sources=. -Dsonar.host.url=http://sonarqube:9000 -Dsonar.login="
   },
   "repository": {
     "type": "git",

@@ -4,7 +4,7 @@
 
 node {
     stage('GIT') {
-        git url: 'https://github.com/pohhen/test.git', branch: 'js-test'
+        checkout scm
     }
     stage('npm') {
         sh 'npm install'
